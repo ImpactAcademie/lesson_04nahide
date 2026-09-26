@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Découvrir l’éléphant, le plus grand mammifère terrestre.">
+	<title>L’éléphant — Portrait d’un géant</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<header class="site-header">
+		<form class="brand-form" action="index.html" method="get">
+			<button class="brand" type="submit">GRANDS VOYAGEURS <span>/ DOSSIER 01</span></button>
+		</form>
+		<nav aria-label="Pages du dossier">
+			<form action="index.html" method="get"><button type="submit" aria-current="page">Portrait</button></form>
+			<form action="habitat.html" method="get"><button type="submit">Habitat</button></form>
+			<form action="protection.html" method="get"><button type="submit">Protection</button></form>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="hero-copy">
+				<p class="eyebrow">Rencontre avec un géant</p>
+				<h1>L’éléphant,<br><em>mémoire vivante</em></h1>
+				<p class="lead">Puissant et délicat, il façonne les paysages et tisse des liens familiaux qui durent toute une vie.</p>
+				<p class="page-index">01 <span>/</span> 03 — Portrait</p>
+			</div>
+			<figure class="hero-image">
+				<img src="https://images.unsplash.com/photo-1564760055775-d63b9a8637e5?auto=format&amp;fit=crop&amp;w=1300&amp;q=85" alt="Éléphant d’Afrique dans son habitat naturel" fetchpriority="high">
+				<figcaption>Un pas après l’autre, il parcourt de vastes territoires.</figcaption>
+			</figure>
+		</section>
+
+		<section class="story-band">
+			<p class="section-label">Un animal, deux mondes</p>
+			<div>
+				<h2>Afrique ou Asie :<br>deux espèces, une même présence.</h2>
+				<p>On distingue l’éléphant de savane et l’éléphant de forêt en Afrique, ainsi que l’éléphant d’Asie. Leurs oreilles, leur silhouette et leurs milieux diffèrent, mais tous jouent un rôle essentiel dans la vie des écosystèmes.</p>
+			</div>
+		</section>
+
+		<section class="facts section-wrap">
+			<div class="section-heading">
+				<p class="eyebrow">Repères</p>
+				<h2>Un corps extraordinaire</h2>
+			</div>
+			<div class="fact-grid">
+				<article><p class="fact-number">01</p><h3>Une trompe multitâche</h3><p>Elle sert à respirer, sentir, saisir des aliments et communiquer par le toucher.</p></article>
+				<article><p class="fact-number">02</p><h3>Des liens familiaux forts</h3><p>Les troupeaux sont souvent guidés par une femelle expérimentée, la matriarche.</p></article>
+				<article><p class="fact-number">03</p><h3>Un grand herbivore</h3><p>Feuilles, herbes, écorces et fruits composent son alimentation variée.</p></article>
+			</div>
+			<div class="fact-of-day">
+				<button class="fact-button" type="button" aria-controls="fact-output">Le saviez-vous ?</button>
+				<p id="fact-output" class="fact-output" aria-live="polite">Découvrez un fait étonnant sur l’éléphant.</p>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer"><span>GRANDS VOYAGEURS</span><span>Dossier éléphant · 01 / 03</span></footer>
+</body>
+</html>
