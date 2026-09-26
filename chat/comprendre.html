@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Comprendre le langage corporel et les comportements du chat.">
+	<title>Comprendre le chat | Mieux le connaître</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<header class="site-header">
+		<form action="index.html">
+			<button class="brand" type="submit">LE CHAT <span>— Mieux le connaître</span></button>
+		</form>
+		<nav aria-label="Navigation principale">
+			<form action="index.html"><button type="submit">Découvrir</button></form>
+			<form action="comprendre.html"><button type="submit" aria-current="page">Comprendre le chat</button></form>
+		</nav>
+	</header>
+
+	<main>
+		<section class="intro" aria-labelledby="page-title">
+			<div class="intro-copy">
+				<p class="eyebrow">Observer avec attention</p>
+				<h1 id="page-title">Le chat communique aussi <em>sans mots</em></h1>
+				<p class="lead">La position de ses oreilles, de sa queue et de son corps donne des indices sur son humeur. Il faut regarder plusieurs signes à la fois et tenir compte du contexte.</p>
+				<p class="page-index">02 <span>/</span> Comprendre</p>
+			</div>
+			<figure class="intro-photo">
+				<img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1100&q=85" alt="Deux chats assis côte à côte et observant leur environnement">
+				<figcaption>Observer sa posture aide à mieux comprendre ses besoins.</figcaption>
+			</figure>
+		</section>
+
+		<section class="text-band" aria-labelledby="body-title">
+			<div class="section-label">Son langage</div>
+			<div>
+				<h2 id="body-title">Lire l’ensemble de sa posture</h2>
+				<p>Un même geste peut avoir plusieurs sens selon la situation. Un chat qui remue la queue, par exemple, peut être concentré, agacé ou simplement réagir à quelque chose qu’il observe.</p>
+				<p>La meilleure approche consiste à rester calme, à ne pas forcer le contact et à laisser au chat la possibilité de s’éloigner.</p>
+			</div>
+		</section>
+
+		<section class="signal-section" aria-labelledby="signal-title">
+			<div class="section-heading">
+				<p class="eyebrow">À observer</p>
+				<h2 id="signal-title">Que peut indiquer ce signal ?</h2>
+			</div>
+			<div class="signal-tool">
+				<label for="signal-select">Choisir un comportement</label>
+				<select id="signal-select">
+					<option value="ears">Les oreilles plaquées vers l’arrière</option>
+					<option value="tail">La queue qui fouette l’air</option>
+					<option value="purr">Le ronronnement</option>
+					<option value="slow-blink">Les yeux qui clignent lentement</option>
+				</select>
+				<p id="signal-result" class="signal-result" aria-live="polite">Des oreilles plaquées peuvent signaler de la peur ou de l’inconfort. Laisse-lui de l’espace et évite de le toucher.</p>
+			</div>
+		</section>
+
+		<section class="text-band respect" aria-labelledby="respect-title">
+			<div class="section-label">Respecter son espace</div>
+			<div>
+				<h2 id="respect-title">Quelques bons réflexes</h2>
+				<ul>
+					<li>Approche-toi doucement et parle à voix calme.</li>
+					<li>Laisse le chat venir vers toi plutôt que de le saisir.</li>
+					<li>S’il s’éloigne ou semble tendu, arrête l’interaction.</li>
+					<li>Demande toujours l’accord de la personne qui s’occupe de lui.</li>
+				</ul>
+				<form class="text-link-form" action="index.html">
+					<button class="text-link" type="submit">Revenir à la découverte du chat <span aria-hidden="true">→</span></button>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer>Un site pour découvrir les chats, avec curiosité et respect.</footer>
+</body>
+</html>
