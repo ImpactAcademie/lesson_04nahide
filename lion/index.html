@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Portrait du lion : découvrez le grand félin, son habitat et sa vie en groupe.">
+	<title>Le lion — Portrait d’un grand félin</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<header class="site-header">
+		<form action="index.html" method="get"><button class="brand" type="submit">FAUNE SAUVAGE <span>/ DOSSIER LION</span></button></form>
+		<nav aria-label="Pages du dossier">
+			<form action="index.html" method="get"><button type="submit" aria-current="page">Portrait</button></form>
+			<form action="habitat.html" method="get"><button type="submit">Habitat</button></form>
+			<form action="vie-sociale.html" method="get"><button type="submit">Vie sociale</button></form>
+			<form action="protection.html" method="get"><button type="submit">Protection</button></form>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="hero-copy">
+				<p class="eyebrow">Rencontre avec un grand félin</p>
+				<h1>Le lion,<br><em>force tranquille</em></h1>
+				<p class="lead">Dans les herbes dorées d’Afrique, sa silhouette raconte une histoire de famille, de territoire et d’équilibre.</p>
+				<p class="page-index">01 <span>/</span> 04 — Portrait</p>
+			</div>
+			<figure class="hero-image">
+				<img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Lion au repos dans la savane">
+				<figcaption>Le lion est le seul grand félin qui vit habituellement en groupe.</figcaption>
+			</figure>
+		</section>
+
+		<section class="story-band">
+			<p class="section-label">Panthera leo</p>
+			<div>
+				<h2>Un grand félin,<br>une présence singulière.</h2>
+				<p>Le lion est un mammifère carnivore de la famille des félidés. Il vit principalement en Afrique subsaharienne. Une petite population de lions d’Asie subsiste aussi dans la région du Gir, en Inde.</p>
+			</div>
+		</section>
+
+		<section class="section-wrap">
+			<div class="section-heading"><p class="eyebrow">Repères</p><h2>Quelques faits sur le lion</h2></div>
+			<div class="fact-grid">
+				<article><p class="fact-number">01</p><h3>Un rugissement puissant</h3><p>Son rugissement porte loin et peut aider les lions à signaler leur présence.</p></article>
+				<article><p class="fact-number">02</p><h3>Une crinière unique</h3><p>Chez le mâle, la crinière varie en taille et en couleur selon l’individu et son environnement.</p></article>
+				<article><p class="fact-number">03</p><h3>Un félin au repos</h3><p>Les lions passent une grande partie de la journée à économiser leur énergie.</p></article>
+			</div>
+			<div class="fact-of-day">
+				<button class="fact-button" type="button" aria-controls="fact-output">Un autre fait</button>
+				<p id="fact-output" class="fact-output" aria-live="polite">Les lionnes d’un même groupe sont souvent apparentées.</p>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer"><span>FAUNE SAUVAGE</span><span>Dossier lion · 01 / 04</span></footer>
+</body>
+</html>
